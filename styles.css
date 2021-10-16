@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.bg {
+    background-color: #f8f9fa;
+    background-image: url('https://www.transparenttextures.com/patterns/brick-wall.png');
+}
+
+* {
+ font-family: 'Quicksand', sans-serif;
+}
+
+.box .container{
+    background-color: black;
+    height: 70px;
+}
+
+.box .container #hot h2{
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background-color: grey;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.navbar .container .row h4{
+    margin-left: 30px;
+}
+
+#footer {
+    background: #16222A;
+    color: white;
+    margin-top:600px;
+}
