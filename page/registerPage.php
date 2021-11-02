@@ -14,14 +14,14 @@
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="/tugasbesar">E-comcom</a>
+                <a class="navbar-brand fw-bold" href="../index.php">E-comcom</a>
             </div>
         </nav>
 
-        <div class="bg bg-light text-dark">
+        <div class="bg bg-dark text-dark">
             <div class="container min-vh-100 mt-5 d-flex align-items-center justify-content-center">
-                <div class="card text-dark bg-light ma-5 shadow " style="min-width: 25rem;">
-                    <div class="card-header fw-bold">Register</div>
+                <div class="card text-light bg-dark ma-5 shadow " style="min-width: 25rem;">
+                    <div class="card-header fw-bold" style="padding-left:170px;">Register</div>
                         <div class="card-body">
                             <form action="../process/registerProcess.php" method="post">
                                 <div class="mb-3">
@@ -39,7 +39,7 @@
                                     <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
                                     <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin" required>
                                         <option value="empty">Pilih...</option>
-                                        <option value="pria">Laki - Laki</option>
+                                        <option value="pria">pria</option>
                                         <option value="perempuan">Perempuan</option>
                                     </select>
                                 </div>

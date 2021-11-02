@@ -16,23 +16,23 @@
     <body>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="/tugasbesar">E-comcom</a>
+                <a class="navbar-brand fw-bold" href="../index.php">E-comcom</a>
             </div>
         </nav>
 
-        <div class="bg bg-light text-dark">
+        <div class="bg bg-dark text-dark">
             <div class="container min-vh-100 d-flex align-items-center justify-content-center">
-                <div class="card text-dark bg-light ma-5 shadow" style="min-width: 25rem;">
-                    <div class="card-header fw-bold">Login</div>
+                <div class="card text-light bg-dark ma-5 shadow" style="min-width: 25rem;">
+                    <div class="card-header fw-bold" style="padding-left:180px;">Login</div>
                         <div class="card-body">
                             <form action="../process/loginProcess.php" method="post">
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Username</label>
-                                    <input class="form-control" id="username" name="username" aria-describedby="emailHelp">
+                                    <input class="form-control" id="username" name="username" aria-describedby="emailHelp" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="password" name="password">
+                                    <input type="password" class="form-control" id="password" name="password" required>
                                 </div>
                                 <div class="d-grid gap-2">
                                     <button type="submit" class="btn btn-primary" name="login">Login</button>

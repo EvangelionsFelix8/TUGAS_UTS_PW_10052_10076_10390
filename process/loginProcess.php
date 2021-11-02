@@ -28,7 +28,8 @@
                     session_start();
     
                     $_SESSION['isLogin'] = true;
-                    $_SESSION['user'] = $user;
+                    
+                    $_SESSION['userId'] = $user['id'];
                     echo
                         '<script>
                             alert("Login Success"); window.location = "../page/dashboardPage.php"

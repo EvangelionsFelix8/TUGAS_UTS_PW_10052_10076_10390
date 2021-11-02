@@ -1,10 +1,11 @@
 <?php
     session_start();
-    if (!$_SESSION['isLogin']) {
+    if (!(isset($_SESSION['userId']))) {
         header("location: ../page/loginPage.php");
     }
     else {
         include('../db.php');
+        $userId = $_SESSION['userId'];
     }
     echo 
     '
@@ -24,7 +25,7 @@
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
-                <title>Dashboard!</title>
+                <title>Dashboard</title>
 
                 <style>
                     *{
@@ -33,7 +34,7 @@
 
                     .side-bar {
                         width: 260px;
-                        background-color: #16347A;
+                        background-color: #464646;
                         min-height: 100vh;
                     }
                     
@@ -73,16 +74,28 @@
                                 <div class="content-menu" >
                                     <i class="fa fa-columns"></i>
                                     <a href="./dashboardPage.php" style="font-weight:600" >Dashboard</a>
-                                </div>
+                                </div>                                
                                 <div class="content-menu " >
                                     <i class="fa fa-list"></i>
-                                    <a href="./listMahasiswaPage.php" style="font-weight:600">List Mahasiswa</a>
+                                    <a href="./listBarangPage.php" style="font-weight:600">List Barang</a>
                                 </div>
                                 <div class="content-menu " >
                                     <i class="fa fa-plus-square"></i>
-                                    <a href="./addMahasiswaPage.php" style="font-weight:600">Add Mahasiswa</a>
+                                    <a href="./createBarangPage.php" style="font-weight:600">Tambah Barang</a>
                                 </div>
                                 <div class="content-menu " >
+                                    <i class="fa fa-cart-plus"></i>
+                                    <a href="./listWishlistPage.php" style="font-weight:600">Wishlist</a>
+                                </div>
+                                <div class="content-menu">
+                                    <i class="fa fa-map-marker"></i>
+                                    <a href="./lokasiPage.php" style="font-weight:600">Kantor Kami</a>
+                                </div>
+                                <div class="content-menu">
+                                    <i class="fa fa-user"></i>
+                                    <a href="./profilePage.php" style="font-weight:600">Profile</a>
+                                </div>                                
+                                <div class="content-menu" style="bottom: 0; position:absolute;">
                                     <i class="fa fa-sign-out"></i>
                                     <a href="../process/logoutProcess.php" style="font-weight:600">Logout</a>
                                 </div>

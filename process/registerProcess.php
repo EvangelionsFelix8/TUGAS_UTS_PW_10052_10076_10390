@@ -59,7 +59,7 @@
                     $mail->Subject = 'Verification Account';
                     $query = mysqli_query($con,"SELECT id FROM users WHERE email='$email'");
                     $data = mysqli_fetch_assoc($query);
-                    $mail->Body    = 'Thank you for registering.. Here is the Verified link http://localhost:8081/tugasbesar/verifikasi.php?id='.$data['id'].'';
+                    $mail->Body    = 'Thank you for registering.. Here is the Verified link http://e-comcom.epizy.com/verifikasi.php?id='.$data['id'].'';
                 
                     $mail->send();
                     echo 'Message has been sent';

@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="/tugasbesar">E-comcom</a>
+            <a class="navbar-brand fw-bold" href="../index.php">E-comcom</a>
             <div class="d-flex justify-content-end">
                 <button class="btn btn-primary me-2" type="button" >
                     <a class="text-light" style="text-decoration: none" href="./page/registerPage.php">Sign Up</a>
@@ -40,28 +40,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../FotoTubes/carausel5.jpg" class="d-block w-100" alt="Gambar Baju">
+                <img src="../FotoTubes/carGyms.jpg" class="d-block w-100" alt="Gambar Baju" style="height:700px;">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Alat Fitness</h5>
-                    <p>Membantu kesehatan dan kebugaran tubuh anda</p>
+                    <h5 style="color: black;">Alat Fitness</h5>
+                    <p style="color: black;">Membantu kesehatan dan kebugaran tubuh anda</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../FotoTubes/carausel-1.jpg" class="d-block w-100" alt="...">
+                <img src="../FotoTubes/carWardrobes.jpg" class="d-block w-100" alt="..." style="height:700px;">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 style="color: black;">Pakaian</h5>
-                    <p style="color: black;">Pakaian Berkuailtas yang disediakan disini</p>
+                    <h5>Pakaian</h5>
+                    <p>Pakaian Berkuailtas yang disediakan disini</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../FotoTubes/carausel-2.jpg" class="d-block w-100" alt="...">
+                <img src="../FotoTubes/carShoess.jpg" class="d-block w-100" alt="..." style="height:700px;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Sepatu</h5>
                     <p>Membuat anda nyaman saat berpergian dan berdiri dalam waktu yang lama</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../FotoTubes/carausel-3.jpg" class="d-block w-100" alt="...">
+                <img src="../FotoTubes/carCcosmeticss.jpg" class="d-block w-100" alt="..." style="height:700px;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 style="color: black;">Peralatan Kecantikan</h5>
                     <p style="color: black;">Buat Anda Tampil lebih Percaya diri</p>
@@ -87,39 +87,84 @@
     </div>
     
     <div class="card" style="width: 18rem;">
-        <img src="../FotoTubes/barbel1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <img src="../FotoTubes/barbells.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Barbel</h5>
+                <p class="card-text">Alat olahraga yang murah, fleksibel dan mudah digunakan</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="../FotoTubes/tas1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/handphones.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Handphone</h5>
+                <p class="card-text">Media komunikasi telepon dan SMS, foto, video call, dan mengakses internet</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="../FotoTubes/celana1.jpg" class="card-img-top" alt="Gambar celana">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/masks.jpg" class="card-img-top" alt="Gambar celana">
+            <div class="card-body">
+                <h5>Masker</h5>
+                <p class="card-text">Bermanfaat untuk kesehatan, terutama dalam mencegah penularan penyakit</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="../FotoTubes/sepatu1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/pantss.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Celana</h5>
+                <p class="card-text">Pakaian luar yang menutup pinggang sampai mata kaki, yang membungkus batang kaki secara terpisah</p>
+            </div>
         </div>
-    </div>
-
-    <div class="navbar navbar-dark bg-dark" id="footer" data-animate="fadeInUp" style="height:100px">
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/pens.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Pena</h5>
+                <p class="card-text">Alat tulis yang digunakan untuk menyapukan tinta ke permukaan, seperti kertas, untuk menulis atau menggambar</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/shavers.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Alat Cukur</h5>
+                <p class="card-text">Alat untuk menunjang penampilan pria dengan gaya yang elegan</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/shoess.jpg" class="card-img-top" alt="Gambar celana">
+            <div class="card-body">
+                <h5>Sepatu</h5>
+                <p class="card-text">Melindungi diri dari cedera kaki, akibat terbentur benda keras atau menginjak benda-benda keras maupun tajam</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/tass.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Tas</h5>
+                <p class="card-text">Wadah untuk membawa barang dan perlengkapan, tas kini juga berfungsi sebagai penunjang penampilan</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/toys.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Mainan</h5>
+                <p class="card-text">Mainan tak hanya berfungsi sebagai hiburan bagi anak. Lewat mainan, anak belajar banyak hal</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="../FotoTubes/watches.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Jam Tangan</h5>
+                <p class="card-text">Fungsi utama dari sebuah jam tangan tentu saja sebagai alat penunjuk waktu</p>
+            </div>
+        </div>
+    
+    <div class="navbar navbar-light bg-dark text-light" id="footer" data-animate="fadeInUp" style="height:250px; margin-top:1000px;">
         <div class="container">
             <div class="row">
                 <h4>Contact US : </h4>
                 <div class="nama">
                     <ul>
-                        <li>EFYGSD</li>
-                        <li>TAW</li>
-                        <li>GTS</li>
+                        <li class="fa fa-instagram" aria-hidden="true" href="../index.php">INSTAGRAM</li>
+                        <li href="../index.php">YOUTUBE</li>
                     </ul>
                 </div>
             </div>
